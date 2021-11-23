@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("#stream1_btn").on("click", function() {
+    $("#stream1_btn").mouseleave(function() {
         $(".stream1").removeClass('highlight_stream');
         $(".stream2").removeClass('highlight_stream');
         $(".stream3").removeClass('highlight_stream');
