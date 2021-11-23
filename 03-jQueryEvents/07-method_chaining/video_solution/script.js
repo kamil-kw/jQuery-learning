@@ -64,7 +64,7 @@ $(document).ready(function() {
         $('#button_effects6').fadeTo(1000, 1);
     });
 
-    $("#myButton").removeClass("blueBox").addClass("border");
-    $("p").css("color", "blue").slideUp(2000).slideDown(2000);
-    $("a").attr("href", "http://www.example.com");
+    $("#myButton").removeClass("blueBox").addClass("border"); //chaining 
+    $("p").css("color", "blue").slideUp(2000).slideDown(2000); //chining with events
+    $("a").attr("href", "http://www.example.com"); // attr worsk as getter and setter
 }); 
